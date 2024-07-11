@@ -3,3 +3,4 @@
 ## this aswell
 ### and this especially
 ![cyberpunk netrunner symbol.](https://static.wikia.nocookie.net/cyberpunk/images/c/c5/Attribute_Intelligence.png/revision/latest?cb=20230927115015)
+so.. uh i assumed that this here is just plain text
