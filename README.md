@@ -1,2 +1,4 @@
 # sera-tonina.github.io
-This is my first time, be patient im learning ok?
+# A first-level heading
+## A second-level heading
+### A third-level heading
