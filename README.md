@@ -1,4 +1,4 @@
-# sera-tonina.github.io
+# sera-tonin.github.io
 # dont know what thats for yet
 ## this aswell
 ### and this especially
