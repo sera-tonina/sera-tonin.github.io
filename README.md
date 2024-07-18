@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,7 +10,7 @@
         body {
             background-color: black; /* Solid black background */
             font-family: 'OCR A Std', monospace;
-            color: red;
+            color: #003366; /* Dark blue text */
             text-align: center;
             margin: 0;
             padding: 0;
@@ -28,28 +29,38 @@
         }
         .box {
             background-color: transparent; /* Transparent background */
-            border: 2px solid red; /* Red outline */
+            border: 2px solid #003366; /* Dark blue outline */
             padding: 30px; /* Larger padding */
             margin: 20px; /* Larger margin */
             width: 300px; /* Larger width */
             text-align: center;
             cursor: pointer;
             border-radius: 15px; /* Rounded edges */
-            color: red; /* Red text */
+            color: #003366; /* Dark blue text */
             font-size: 24px; /* Larger text */
         }
         .box:hover {
-            background-color: rgba(255, 0, 0, 0.1); /* Slightly red background on hover */
+            background-color: rgba(0, 51, 102, 0.1); /* Slightly dark blue background on hover */
         }
         .description {
             font-size: 18px;
             margin-top: 10px;
-            color: red;
+            color: #003366; /* Dark blue text */
+        }
+        .image-container {
+            margin-top: 20px;
+        }
+        .image-container img {
+            width: 200px; /* Adjust the size as needed */
+            height: auto;
         }
     </style>
 </head>
 <body>
     <div class="header">Seratonina</div>
+    <div class="image-container">
+        <img src="path/to/your/image.jpg" alt="Description of the image">
+    </div>
     <div class="container">
         <div class="box" onclick="window.location.href='#infodump'">
             -Infodump-
