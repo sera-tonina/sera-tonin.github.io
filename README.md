@@ -1,4 +1,3 @@
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,7 +5,7 @@
     <title>Seratonina</title>
     <style>
         body {
-            background-color: #f0f0f0; /* Replace this with your own background */
+            background-color: black; /* Solid black background */
             font-family: 'Courier New', Courier, monospace;
             color: red;
             text-align: center;
@@ -26,16 +25,18 @@
             height: 80vh;
         }
         .box {
-            background-color: rgba(0, 255, 0, 0.3); /* Transparent green */
+            background-color: rgba(0, 128, 0, 0.7); /* Darker transparent green */
             border: 2px solid green;
             padding: 20px;
             margin: 10px;
             width: 200px;
             text-align: center;
             cursor: pointer;
+            border-radius: 15px; /* Rounded edges */
+            color: red; /* Red text */
         }
         .box:hover {
-            background-color: rgba(0, 255, 0, 0.5);
+            background-color: rgba(0, 128, 0, 0.9);
         }
     </style>
 </head>
