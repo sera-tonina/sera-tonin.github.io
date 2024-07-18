@@ -28,17 +28,18 @@
         }
         .box {
             background-color: transparent; /* Transparent background */
-            border: 2px solid green; /* Green outline */
-            padding: 20px;
-            margin: 10px;
-            width: 200px;
+            border: 2px solid red; /* Red outline */
+            padding: 30px; /* Larger padding */
+            margin: 20px; /* Larger margin */
+            width: 300px; /* Larger width */
             text-align: center;
             cursor: pointer;
             border-radius: 15px; /* Rounded edges */
             color: red; /* Red text */
+            font-size: 24px; /* Larger text */
         }
         .box:hover {
-            background-color: rgba(0, 128, 0, 0.1); /* Slightly green background on hover */
+            background-color: rgba(255, 0, 0, 0.1); /* Slightly red background on hover */
         }
     </style>
 </head>
