@@ -4,9 +4,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Seratonina</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=OCR+A+Std&display=swap');
+        
         body {
             background-color: black; /* Solid black background */
-            font-family: 'Courier New', Courier, monospace;
+            font-family: 'OCR A Std', monospace;
             color: red;
             text-align: center;
             margin: 0;
@@ -25,8 +27,8 @@
             height: 80vh;
         }
         .box {
-            background-color: rgba(0, 128, 0, 0.7); /* Darker transparent green */
-            border: 2px solid green;
+            background-color: transparent; /* Transparent background */
+            border: 2px solid green; /* Green outline */
             padding: 20px;
             margin: 10px;
             width: 200px;
@@ -36,7 +38,7 @@
             color: red; /* Red text */
         }
         .box:hover {
-            background-color: rgba(0, 128, 0, 0.9);
+            background-color: rgba(0, 128, 0, 0.1); /* Slightly green background on hover */
         }
     </style>
 </head>
