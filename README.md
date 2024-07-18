@@ -41,14 +41,28 @@
         .box:hover {
             background-color: rgba(255, 0, 0, 0.1); /* Slightly red background on hover */
         }
+        .description {
+            font-size: 18px;
+            margin-top: 10px;
+            color: red;
+        }
     </style>
 </head>
 <body>
     <div class="header">Seratonina</div>
     <div class="container">
-        <div class="box" onclick="window.location.href='#infodump'">-Infodump-</div>
-        <div class="box" onclick="window.location.href='#theory'">-Theory-</div>
-        <div class="box" onclick="window.location.href='#experimentation'">-Experimentation-</div>
+        <div class="box" onclick="window.location.href='#infodump'">
+            -Infodump-
+            <div class="description">This is where I store info I've found.</div>
+        </div>
+        <div class="box" onclick="window.location.href='#theory'">
+            -Theory-
+            <div class="description">This is where I note theoretical information I've learned.</div>
+        </div>
+        <div class="box" onclick="window.location.href='#experimentation'">
+            -Experimentation-
+            <div class="description">This is where I experiment with my new skills.</div>
+        </div>
     </div>
 </body>
 </html>
