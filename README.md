@@ -1,8 +1,9 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>90s Design Website</title>
+    <title>Seratonina</title>
     <style>
         body {
             background-color: #f0f0f0; /* Replace this with your own background */
@@ -12,12 +13,17 @@
             margin: 0;
             padding: 0;
         }
+        .header {
+            margin-top: 20px;
+            font-size: 36px;
+            font-weight: bold;
+        }
         .container {
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            height: 100vh;
+            height: 80vh;
         }
         .box {
             background-color: rgba(0, 255, 0, 0.3); /* Transparent green */
@@ -34,6 +40,7 @@
     </style>
 </head>
 <body>
+    <div class="header">Seratonina</div>
     <div class="container">
         <div class="box" onclick="window.location.href='#infodump'">-Infodump-</div>
         <div class="box" onclick="window.location.href='#theory'">-Theory-</div>
